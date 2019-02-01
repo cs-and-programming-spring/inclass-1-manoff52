@@ -22,7 +22,7 @@ int main()
 	
 	//Display purpose of the program
 	cout << " ******************************************"<<endl;
-	cout << " This program takes in radius to compute area of circle, changes miles to km, and converts from km to meter" <<endl;
+	cout << " This program does multiple different conversion" <<endl;
 	cout << " ******************************************\n\n";
 	
 	//Get user input
@@ -82,7 +82,7 @@ int main()
 	 float days, months, hours, minutes, seconds, years;
 
 	//get user input for age in years 
-	cout <<"Enter your age in years";
+	cout <<"Enter your age in years: ";
 	cin >> years;
 
 	//compute age in months days hours minutes and seconds 
@@ -93,8 +93,8 @@ int main()
 	seconds = minutes* 60;
 
 	//display output 
-	cout << " You are :" << endl;
-	cout << "Months :" << months << endl;
+	cout << " You are: " << endl;
+	cout << "Months: " << months << endl;
 	cout << "Days: " << days << endl;
 	cout << "Hours: " << hours << endl;
 	cout << "Minutes: " << minutes << endl;
